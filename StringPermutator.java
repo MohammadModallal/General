@@ -46,7 +46,7 @@ public class StringPermutator {
 	input: array of Strings and the size of the list.
 	output: print all list elements on the screen.
 	*/
-    public static void printStrings(String[] strings,int size) {
+        public static void printStrings(String[] strings,int size) {
 	    
         for (int i = 0; i < size; i++) {
            System.out.println(strings[i]);
