@@ -8,6 +8,9 @@ public class StringPermutator {
 	output: List of factorials, example: factorials=[1,1*2,1*2*3]
 	*/
 	public static int [] getFactorialsList(int number) {
+	if(number<0){
+	        return null;
+	}	
         int [] factorials = new int[number+1];
         factorials[0] = 1;
         for (int i = 1; i<=number;i++) {
